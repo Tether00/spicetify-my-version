@@ -474,7 +474,7 @@
 	function gainControls(uri, v) {
 		const label = h("button", { className: "my-version-db", title: "Reset to 0 dB" }, fmtDb(v.gainDb));
 		// type and min/max before value, or the value gets clamped to the default 0–100 range
-		const slider = h("input", { type: "range", min: -12, max: 12, step: 0.5, value: v.gainDb ?? 0, className: "my-version-gain", title: "Volume of this file", ariaLabel: `Volume of ${v.fileName}` });
+		const slider = h("input", { type: "range", min: -24, max: 12, step: 0.5, value: v.gainDb ?? 0, className: "my-version-gain", title: "Volume of this file", ariaLabel: `Volume of ${v.fileName}` });
 		const set = (db, persist) => {
 			slider.value = db;
 			label.textContent = fmtDb(db);

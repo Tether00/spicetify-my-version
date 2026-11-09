@@ -11,7 +11,7 @@ Whenever that song plays — from a playlist, an album, radio or the queue — y
 - **Several versions per song.** Open **My versions** (♫ button in the top bar) and switch between them in one click.
   If the song is playing, it switches right away from the same spot, with a short crossfade.
 - **"Original"** is always an option, so you can hear Spotify's track without deleting your versions.
-- **Per-file volume** (−12…+12 dB) to match a file that is quieter or louder than your other songs.
+- **Per-file volume** (−24…+12 dB) to match a file that is quieter or louder than your other songs.
 - **The seek bar follows your file**: its length and position, whether it is longer or shorter than the original.
 - Seeking and pausing fade like Spotify's own player (no clicks).
 - The volume slider, mute, media keys, next/previous and repeat-one keep working as usual.
