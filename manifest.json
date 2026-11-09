@@ -1,0 +1,9 @@
+{
+	"name": "My Version",
+	"description": "Replace any song with your own audio file. Several versions per song, one-click switching, per-file volume.",
+	"preview": "preview.png",
+	"main": "myVersion.js",
+	"readme": "README.md",
+	"authors": [{ "name": "Tether00", "url": "https://github.com/Tether00" }],
+	"tags": ["playback", "audio", "local files"]
+}
